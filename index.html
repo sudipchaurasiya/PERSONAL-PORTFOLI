@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,13 +11,13 @@
     <title>Sudip Kumar Chaurasiya | Cybersecurity Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
 
     <!-- Header -->
     <header class="site-header">
-
         <div class="container header-content">
 
             <div class="header-text">
@@ -30,22 +31,19 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
         </div>
-
     </header>
 
-
-    <!-- Main Content -->
     <main>
 
         <!-- About Section -->
         <section id="about" class="section about-section">
-
             <div class="container">
 
                 <h2>About Me</h2>
@@ -58,7 +56,6 @@
                     </div>
 
                     <article class="about-text">
-
                         <h3>Hello, I am Sudip</h3>
 
                         <p>
@@ -81,19 +78,14 @@
                             I am continuously improving my technical skills through
                             academic projects, labs, and practical activities.
                         </p>
-
                     </article>
 
                 </div>
-
             </div>
-
         </section>
-
 
         <!-- Skills Section -->
         <section id="skills" class="section skills-section">
-
             <div class="container">
 
                 <h2>Skills and Interests</h2>
@@ -147,15 +139,11 @@
                     </article>
 
                 </div>
-
             </div>
-
         </section>
-
 
         <!-- Projects Section -->
         <section id="projects" class="section projects-section">
-
             <div class="container">
 
                 <h2>Projects</h2>
@@ -163,7 +151,6 @@
                 <div class="projects-grid">
 
                     <article class="project-card">
-
                         <h3>Blood Donor Finder and Management System</h3>
 
                         <p>
@@ -175,12 +162,9 @@
                         <p class="project-type">
                             Project Type: Software Engineering
                         </p>
-
                     </article>
 
-
                     <article class="project-card">
-
                         <h3>Daraz Data Analysis Project</h3>
 
                         <p>
@@ -194,12 +178,9 @@
                             rel="noopener noreferrer">
                             View Project
                         </a>
-
                     </article>
 
-
                     <article class="project-card">
-
                         <h3>Cybersecurity Lab Practice</h3>
 
                         <p>
@@ -208,12 +189,9 @@
                             testing, vulnerability assessment, and security
                             log analysis.
                         </p>
-
                     </article>
 
-
                     <article class="project-card">
-
                         <h3>Personal Portfolio Website</h3>
 
                         <p>
@@ -222,19 +200,111 @@
                             presents my skills, education, projects, and contact
                             information.
                         </p>
-
                     </article>
 
                 </div>
-
             </div>
-
         </section>
 
+        <!-- Image Slider Gallery: Added for Week 4 Assignment -->
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+
+                <h2>Technology Gallery</h2>
+
+                <p class="gallery-intro">
+                    Explore images related to cybersecurity, ethical hacking,
+                    networking, programming, and digital technology.
+                </p>
+
+                <div class="image-slider" aria-label="Technology image slider">
+
+                    <div class="slider-window">
+                        <div class="slider-track">
+
+                            <article class="slide">
+                                <img src="slide1.jpg"
+                                    alt="Cybersecurity and digital protection">
+
+                                <div class="slide-caption">
+                                    <h3>Cybersecurity</h3>
+                                    <p>Learning how to protect digital systems.</p>
+                                </div>
+                            </article>
+
+                            <article class="slide">
+                                <img src="slide2.jpeg"
+                                    alt="Ethical hacking workstation">
+
+                                <div class="slide-caption">
+                                    <h3>Ethical Hacking</h3>
+                                    <p>Practicing security testing in authorized labs.</p>
+                                </div>
+                            </article>
+
+                            <article class="slide">
+                                <img src="slide3.jpg"
+                                    alt="Computer networking equipment">
+
+                                <div class="slide-caption">
+                                    <h3>Networking</h3>
+                                    <p>Understanding networks, hosts, and services.</p>
+                                </div>
+                            </article>
+
+                            <article class="slide">
+                                <img src="slide4.jpg"
+                                    alt="Programming code displayed on a screen">
+
+                                <div class="slide-caption">
+                                    <h3>Programming</h3>
+                                    <p>Developing logic and building projects.</p>
+                                </div>
+                            </article>
+
+                            <article class="slide">
+                                <img src="slide5.jpg"
+                                    alt="Digital technology and innovation">
+
+                                <div class="slide-caption">
+                                    <h3>Digital Technology</h3>
+                                    <p>Exploring new ideas and technology.</p>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <div class="slider-controls">
+
+                        <button type="button"
+                            class="slider-button previous-button"
+                            aria-label="Previous image">
+                            &#10094;
+                        </button>
+
+                        <div class="slider-dots"
+                            aria-label="Choose an image">
+                        </div>
+
+                        <button type="button"
+                            class="slider-button next-button"
+                            aria-label="Next image">
+                            &#10095;
+                        </button>
+
+                    </div>
+
+                    <p class="slider-status" aria-live="polite">
+                        Image 1 of 5
+                    </p>
+
+                </div>
+            </div>
+        </section>
 
         <!-- Education Section -->
         <section id="education" class="section education-section">
-
             <div class="container">
 
                 <h2>Education</h2>
@@ -242,7 +312,6 @@
                 <div class="education-grid">
 
                     <article class="education-card">
-
                         <h3>Bachelor of Information Technology</h3>
 
                         <p>
@@ -255,12 +324,9 @@
                             knowledge in programming, networking, databases,
                             web development, and cybersecurity.
                         </p>
-
                     </article>
 
-
                     <article class="education-card">
-
                         <h3>Higher Secondary Education</h3>
 
                         <p>
@@ -272,19 +338,14 @@
                             I studied Management with Computer Science during
                             my higher secondary education.
                         </p>
-
                     </article>
 
                 </div>
-
             </div>
-
         </section>
-
 
         <!-- Contact Section -->
         <section id="contact" class="section contact-section">
-
             <div class="container">
 
                 <h2>Contact Me</h2>
@@ -293,7 +354,6 @@
                     If you want to connect with me, you can use the contact
                     form or visit my professional profiles.
                 </p>
-
 
                 <div class="contact-content">
 
@@ -308,7 +368,6 @@
                                 required>
                         </div>
 
-
                         <div class="form-group">
                             <label for="email">Email:</label>
                             <input type="email"
@@ -316,7 +375,6 @@
                                 name="email"
                                 required>
                         </div>
-
 
                         <div class="form-group">
                             <label for="subject">Subject:</label>
@@ -326,7 +384,6 @@
                                 required>
                         </div>
 
-
                         <div class="form-group">
                             <label for="message">Message:</label>
                             <textarea id="message"
@@ -335,11 +392,8 @@
                                 required></textarea>
                         </div>
 
-
                         <button type="submit">Send Message</button>
-
                     </form>
-
 
                     <!-- Contact Information -->
                     <address class="contact-info">
@@ -367,27 +421,19 @@
                     </address>
 
                 </div>
-
             </div>
-
         </section>
 
     </main>
 
-
     <!-- Footer -->
     <footer class="site-footer">
-
         <div class="container">
-
             <p>
                 &copy; 2026 Sudip Kumar Chaurasiya. All rights reserved.
             </p>
-
             <p>Cybersecurity Portfolio</p>
-
         </div>
-
     </footer>
 
 </body>
